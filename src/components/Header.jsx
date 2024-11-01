@@ -15,13 +15,13 @@ const Header = () => {
           <Link to="/" className="ml-4 flex items-center">
             <FontAwesomeIcon icon={faHome} className="mr-1" />Home
           </Link>
-          <Link to="#features" className="ml-4 flex items-center">
+          <Link to="/features" className="ml-4 flex items-center">
             <FontAwesomeIcon icon={faFileAlt} className="mr-1" />Features
           </Link>
           <Link to="/about" className="ml-4 flex items-center">
             <FontAwesomeIcon icon={faInfoCircle} className="mr-1" />About
           </Link>
-          <Link to="#faq" className="ml-4 flex items-center">
+          <Link to="/faq" className="ml-4 flex items-center">
             <FontAwesomeIcon icon={faQuestionCircle} className="mr-1" />FAQ
           </Link>
           <Link to="/privacy" className="ml-4 flex items-center">

@@ -3,6 +3,28 @@
 @tailwind utilities;
 
 body {
+  font-family: 'Inter', sans-serif;
+}
+
+header a {
+  transition: color 0.3s;
+}
+
+header a:hover {
+  color: #ffeb3b;
+}
+
+button {
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #ffeb3b;
+  transform: translateY(-2px);
+}
+
+
+body {
   @apply bg-gray-100;
 }
 
@@ -45,3 +67,7 @@ button[type="submit"] {
 footer {
   @apply bg-gray-200 text-gray-600 py-4;
 }
+
+.custom-class { 
+  @apply text-green-600;
+  }
